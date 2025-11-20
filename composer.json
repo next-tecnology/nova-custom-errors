@@ -1,0 +1,47 @@
+{
+  "name": "next-tecnology/nova-custom-errors",
+  "description": "Custom error handling for Nova",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "nova",
+    "errors",
+    "custom-errors",
+    "error-pages"
+  ],
+  "authors": [
+    {
+      "name": "Next Tecnology",
+      "email": "info@next-tecnology.com"
+    }
+  ],
+
+  "autoload": {
+    "psr-4": {
+      "NextTecnology\\NovaCustomErrors\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2|^8.3|^8.4",
+    "laravel/nova": "^4.0|^5.0"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "php-http/discovery": true
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NextTecnology\\NovaCustomErrors\\NovaCustomErrorsServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
