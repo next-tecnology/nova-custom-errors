@@ -1,6 +1,6 @@
 {
   "name": "next-tecnology/nova-custom-errors",
-  "description": "Custom error handling for Nova",
+  "description": "Custom error views for Nova",
   "type": "library",
   "license": "MIT",
   "keywords": [
